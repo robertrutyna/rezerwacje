@@ -4,7 +4,7 @@ error_reporting(0);
 
 session_start();
 
-// sprawdz to jest kolejna próba zam, czy mam język w zmiennej podesłany [ czy user chce zmienić ]
+// sprawdzzam, czy mam język w zmiennej podesłany [ czy user chce zmienić ]
 if ( isset( $_GET['lang'] ) )
         {
            // jak mam, to sprawdzam, czy jest dobry język podany
